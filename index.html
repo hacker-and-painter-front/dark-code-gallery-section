@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!--gallery画廊-->
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>My Gallery</h1>
+            <div class="border"></div>
+            <div class="gallery">
+
+                <a href="img/1.png" class="image">
+                    <img src="img/1.png" alt="">
+                </a>
+
+                <a href="img/2.png" class="image">
+                    <img src="img/2.png" alt="">
+                </a>
+
+                <a href="img/3.png" class="image">
+                    <img src="img/3.png" alt="">
+                </a>
+
+                <a href="img/4.png" class="image">
+                    <img src="img/4.png" alt="">
+                </a>
+
+                <a href="img/5.png" class="image">
+                    <img src="img/5.png" alt="">
+                </a>
+
+                <a href="img/6.png" class="image">
+                    <img src="img/6.png" alt="">
+                </a>
+
+                <a href="img/7.png" class="image">
+                    <img src="img/7.png" alt="">
+                </a>
+
+                <a href="img/8.png" class="image">
+                    <img src="img/8.png" alt="">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+                enabled: true
+            }
+        });
+    </script>
+</body>
+</html>
